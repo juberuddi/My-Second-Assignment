@@ -218,6 +218,9 @@ h2{
     text-align: center;
 
     }
+    .picture{
+        width: 100%;
+    }
 .continer{
     max-width: 1000px;
     margin: 0 auto;
@@ -394,23 +397,51 @@ h2{
     }
     
 }
+
+@media (max-width: 480px) {
+    .why-choose h2 {
+        font-size: 1.8rem;
+    }
+
+    .card {
+        padding: 25px 20px;
+    }
+}
 @media screen and (max-width:768px){
     
 
     .host{
         padding:40px 15px;
-    }
 
+
+    }
     .host-card{
         width:100%;
         padding:25px 20px;
-    }
+        flex-direction: column;
+        text-align: center;
 
+         }
+
+   
     .host-card img{
-        width:100px;
-        height:100px;
-    }
+        width:120px;
+        height:120px;
+        margin-bottom: 15px;
 
+
+    }
+     .social-icons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .social-icons img, .social-icons svg {
+        max-width: 100%;
+        height: auto;
+        width: 50%;
+    }
     .bio{
         font-size:13px;
         line-height:1.6;
@@ -418,5 +449,24 @@ h2{
 
     .host-icons img{
         width:26px;
+
+
+      }
+}
+
+
+
+@media (max-width: 480px) {
+    .host .tittle {
+        font-size: 1.8rem;
+    }
+    #left-side {
+        font-size: 1.4rem;
+    }
+ .bio {
+        font-size: 0.95rem;
+    }
+    .picture{
+        width: 100%;
     }
 }
