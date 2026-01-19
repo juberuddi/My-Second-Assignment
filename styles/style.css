@@ -20,7 +20,7 @@ body{
     font-weight: 500;
 }
 .navbar button{
-    background-color:#FB09B4;
+    background-color: #FB09B4;
     border: none;
     padding:  10px 25px;
     border-radius: 25px;
@@ -29,6 +29,7 @@ body{
     font-weight: 800;
     
 }
+
 .set{
     display: flex;
 }
