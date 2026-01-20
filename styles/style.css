@@ -19,16 +19,57 @@ body{
     text-decoration: none;
     font-weight: 500;
 }
-.navbar button{
-    background-color: #FB09B4;
-    border: none;
-    padding:  10px 25px;
-    border-radius: 25px;
-    color: aliceblue;
-    cursor: pointer;
-    font-weight: 800;
-    
+.subscribe-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  height: 48px;             
+  padding: 0 26px;           
+  border: none;
+  border-radius: 999px;
+
+  background: linear-gradient(
+    120deg,
+    #ffd966 0%,
+    #ff4fd8 45%,
+    #8f00ff 100%
+  );
+  color: #fff;
+  font-size: 16px;          
+  font-weight: 600;
+  line-height: 1;
+
+  cursor: pointer;
+  box-shadow:
+    0 6px 16px rgba(255, 79, 216, 0.35),
+    0 0 22px rgba(143, 0, 255, 0.25);
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+.subscribe-btn:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 8px 22px rgba(255, 79, 216, 0.45),
+    0 0 28px rgba(143, 0, 255, 0.3);
+}
+
+.subscribe-btn .arrow {
+  font-size: 18px;           
+}
+
+
+    
+ 
+/* button span {
+  display: inline-block;
+  background: linear-gradient(30deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
 
 .set{
     display: flex;
@@ -36,9 +77,26 @@ body{
 .navbar button img{
     justify-content: center;
 }
-#span{
-    color: #FB09B4;
+.text-one {
+ 
+  font-family: Arial Black, "Arial Bold", sans-serif; 
 }
+
+#span {
+  
+  background: linear-gradient(to right, #f75590, #d622ff, #8e2de2);
+  
+  
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  
+  display: inline-block;
+}
+/* #span{
+    color: #FB09B4;
+} */
 .hero{
     position: relative;
     min-height: 100vh;
