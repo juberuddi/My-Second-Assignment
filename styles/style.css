@@ -11,6 +11,7 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 60px;
 }
 .navbar a{
@@ -155,6 +156,7 @@ body{
     border-radius: 25px;
     color: white;
     display: flex;
+    cursor: pointer;
 }
 .green-btn{
     background:#28e98c ;
@@ -163,6 +165,7 @@ body{
     border-radius: 25px;
     color: black;
     display: flex;
+    cursor: pointer;
 }
 .btn-icons{
     width: 18px;
