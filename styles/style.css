@@ -138,6 +138,12 @@ body{
     margin-top: 30px;
     z-index: 1;
 }
+.stats{
+    justify-content: space-between;
+    align-items: center;
+
+}
+
 .hero p{
     max-width: 520px;
     opacity: 8;
@@ -469,12 +475,13 @@ h2{
     .card {
         padding: 25px 20px;
     }
-    .grid-container{
+    .grid-container,.footer-link{
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
+    
 }
 @media screen and (max-width:768px){
     
